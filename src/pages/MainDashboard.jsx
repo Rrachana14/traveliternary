@@ -172,12 +172,7 @@ const MainDashboard = () => {
 
         <ActivityCard/>
 
-        <button
-        onClick={() => setDarkMode(!darkMode)}
-        className="fixed top-4 right-4 z-50 bg-gray-300 dark:bg-gray-700 text-black dark:text-white px-3 py-1 rounded"
-      >
-        Toggle {darkMode ? "Light" : "Dark"} Mode
-      </button>
+       
 
       </div>
     </div>
